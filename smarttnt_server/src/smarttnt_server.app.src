@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, smarttnt_server,
+ [{description, "smarttnt_server"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'smarttnt_server_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.

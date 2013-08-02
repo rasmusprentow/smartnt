@@ -1,0 +1,6 @@
+deps
+*.swp
+*.swo
+.eunit/
+data/
+**/*.beam

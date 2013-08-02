@@ -1,0 +1,3 @@
+{application,mongodb}.
+{packages,[]}.
+{modules,[]}.

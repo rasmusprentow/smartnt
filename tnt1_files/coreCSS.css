@@ -1,0 +1,438 @@
+﻿/* CSS Document version 1*/
+
+html,body,div,span,applet,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-weight:inherit;
+font-style:inherit;
+font-size:100%;
+font-family:inherit;
+vertical-align:baseline;
+}
+
+
+body,select{
+	color: #333333;
+	font-family: "Calibri" ,Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	line-height:17px;
+}
+
+
+a,
+a.visited,
+a.link,
+a.active{
+	color:#003382;
+	
+}
+
+
+a.hover{
+	color:#003382;
+}
+
+#content{
+	width:558px;	
+}
+	
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+	font-family: "Calibri" ,Verdana,Arial,Helvetica,sans-serif;
+}	
+
+h1{
+	font-size: 28px;
+	font-weight:normal;
+	color: #990000;
+	margin:15px 0px 15px 0px;
+}	
+
+h2{
+	font-size: 19px;
+	font-weight:normal;
+	font-style:italic;
+	padding:0px 0px 10px 0px;	
+}
+	
+h3{
+	font-size: 16px;
+	font-weight:normal;
+	color: #990000;
+	
+	background-color:#f6f3ed;
+	padding:0px 8px 0px 8px;
+	font-weight:normal;
+	line-height:32px;
+	width:auto;
+	height:32px;
+	margin:10px 0px 15px 0px;
+}		
+	
+h4{
+	font-size: 14px;
+	font-weight:normal;
+}
+
+h4.errorMessage{
+	font-size: 14px;
+	font-weight:normal;
+	color: #990000;
+	padding-top:5px;
+}
+
+h4.requiredFieldsInfo{
+	text-align:right;
+	color: #990000;	
+}
+	
+h5{
+	font-size: 24px;
+	font-weight:normal;
+	color: #990000;
+	margin-bottom: 8px;
+	}
+	
+h6{
+	font-size: 10px;
+	font-weight:normal;
+	color: #999999;
+}			
+	
+h6.date{
+	font-size: 10px;
+	font-weight:normal;
+	color: #999999;
+	padding:0px 0px 5px 0px;
+}		
+
+.bold{
+	font-weight:bold;
+}
+	
+label{
+	display:block;
+	font-size: 14px;
+	font-weight:normal;
+	margin: 3px 0px 3px 0px;
+}	
+
+span.requiredField{
+	font-size: 14px;
+	font-weight:normal;
+	color: #990000;
+}	
+
+textarea{
+	border:1px solid #a8a8a8;
+	background-color:#fbfbfb;
+	margin:0px 0px 10px 0px;
+	width:100%;
+}
+
+div.formFieldSpacer{
+	border-bottom:2px solid #e6e1d5;
+	margin: 10px 0px 10px 0px;	
+}  
+	
+hr{
+	border:1px solid #f6f3ed;
+	clear: both;
+	margin:15px 0px 15px 0px;
+}
+
+
+/* styles til tabeller*/
+
+table#pdkTable{
+	padding:15px 0px 0px 0px;
+}
+
+table#pdkTable th{
+	text-align:left;
+	font-style:italic;
+	font-weight:bold;
+	background-color:#c5bca8;
+	border-bottom:3px solid #fff;
+	padding:5px 5px 5px 5px;
+}
+
+table#pdkTable th img{
+	padding:0px 0px 2px 5px;
+}
+
+table#pdkTable th a{
+	
+}
+
+table#pdkTable td a{
+	
+}
+
+table#pdkTable td{
+	text-align:left;
+	background-color:#eeeae2;
+	border-bottom:3px solid #fff;
+	padding:5px 5px 5px 5px;
+}
+
+table#pdkTablePaging{
+	padding-top:6px;
+}
+
+table#pdkTablePaging th{
+	background-color:#dbd4c5;
+}
+
+table#pdkTablePaging td{
+	border-bottom:3px solid #fff;
+}
+
+
+table#pdkTablePaging a{
+	
+}
+
+table#pdkTablePaging th{
+	vertical-align:middle;
+}
+
+table#pdkTablePaging th img{
+	padding:5px 5px 5px 5px;
+}
+
+
+table.pdkTable{
+	padding:15px 0px 0px 0px;
+}
+
+table.pdkTable th{
+	text-align:left;
+	font-style:italic;
+	font-weight:bold;
+	background-color:#c5bca8;
+	border-bottom:3px solid #fff;
+	padding:5px 5px 5px 5px;
+}
+
+table.pdkTable th img{
+	padding:0px 0px 2px 5px;
+}
+
+table.pdkTable td{
+	text-align:left;
+	background-color:#eeeae2;
+	border-bottom:3px solid #fff;
+	padding:5px 5px 5px 5px;
+}
+
+table.pdkTablePaging{
+	padding-top:6px;
+}
+
+table.pdkTablePaging th{
+	background-color:#dbd4c5;
+}
+
+table.pdkTablePaging td{
+	border-bottom:3px solid #fff;
+}
+
+
+table.pdkTablePaging a{
+	
+}
+
+table.pdkTablePaging th{
+	vertical-align:middle;
+}
+
+table.pdkTablePaging th img{
+	padding:5px 5px 5px 5px;
+}	
+	
+.headline_confirm{
+	margin-bottom:5px;
+	
+}
+
+.confirmdata{
+	background-color:#f6f3ed;
+	padding:10px 10px 10px 10px;	
+	margin:0px 0px 10px 0px;
+}
+.confirmdata p{
+	padding:0px;	
+	margin:0px;
+	
+}
+
+.inputbutton{
+	background:#000 url(pdkbtn_left.png) -10px -7px;
+	border:0px;
+	padding:2px 20px 3px 20px;
+	padding /*\**/:1px 20px 2px 20px;
+	color:#FFF;
+	margin-left:20px;
+
+}
+
+.inputbutton:hover{
+	background:#000 url(pdkbtn_left.png) -10px -35px;
+	border:0px;
+	padding:2px 20px 3px 20px;
+	padding /*\**/:1px 20px 2px 20px;
+	color:#FFF;
+	margin-left:20px;
+
+}
+
+.inactive, .inactive:hover{
+	background:#000 url(pdkbtn_left.png) -10px -37px;
+}
+
+
+.bntspace{
+	float:right;
+	clear:both;
+	margin:10px 0px 10px 0px;
+	display:block;
+	
+}
+
+ul.steps{
+	margin:0px 0px 80px 0px;
+	padding:0px;
+	list-style:none;
+	font-style:italic;
+	font-weight:bold;
+	color: #6b6a66;
+	font-size:130%;
+	clear:both;
+}
+
+
+ul.steps li{
+	padding:10px 60px 10px 10px;
+	background:#f6f3ee url(steps.png) no-repeat right -38px;
+	float:left;
+	margin:0px;
+}
+
+ul.steps li.pre{
+	
+	background:#f6f3ee url(steps.png) no-repeat right -76px;
+
+}
+
+ul.steps li.select{
+	background:#dbd4c2 url(steps.png) no-repeat right top;
+	color:#000;
+}
+
+.layout_div{
+	padding-right:10px;
+	display: block;
+		clear: both;
+}
+
+.helpMessage{
+	width:200px;
+	border:1px solid #dbd4c2;
+	position:absolute;
+	background-color:#FFF;
+	z-index:2;
+	border-top:8px solid #cc0000;
+	padding:10px 5px 0px 5px;
+	display:none;
+}
+
+/* udgÃ¥et	
+
+.requiredField:after{
+	font-size:14px;
+	color: #cc0000;	
+	content:"*";
+	padding-left:5px;
+	}	
+	
+	
+	
+	
+.requiredFieldsInfo {
+	font-weight: bold;
+	color: #990000;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+	text-align:right;
+	}
+
+a.help{
+	text-decoration:none;
+	padding:0px 0px 0px 0px;
+	color:#333333;
+	}
+
+a.help:after{
+	content: url(../img/help_sprite.png);
+	padding:0px 0px 0px 5px;
+	}	
+	
+#help{
+	background-color:#990000;
+	height:auto;
+	width:262px;
+	position:absolute;
+	top:auto;
+	left:auto;
+	}		
+	
+#help .header{
+	background-color:#990000;
+	height:13px;
+	}	
+	
+#help .message{
+	background-color:#dee9fa;
+	height:auto;
+	padding:3px 0px 10px 10px;
+	}	
+
+
+
+input[type=text] {  
+   	background: transparent url(../img/posten-sprite-dk.png) no-repeat left -140px;
+	height: 24px;
+	padding: 0px 0px 0px 0px;
+	float:left;
+	margin: 0 0 5px 0;
+	border:0px solid #fff; 
+  }  
+
+input[type=button] {  
+   	background: transparent url(../img/posten-sprite-dk.png) no-repeat left -80px;
+	height: 22px;
+	padding: 0px 0px 2px 12px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	border:none; 
+	color:#FFF;
+  }    
+
+input[type=submit] {  
+   	background: transparent url(../img/posten-sprite-dk.png) no-repeat left -80px;
+	height: 22px;
+	padding: 0px 0px 2px 12px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	border:none; 
+	color:#FFF;
+  }    
+    
+*/  
