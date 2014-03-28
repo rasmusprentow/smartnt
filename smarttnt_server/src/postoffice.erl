@@ -6,11 +6,14 @@
 
 start() ->
 	inets:start().
-
 fetch_reg_count(Tn) ->
+	io:format("TN: ~p ~n", [Tn]),
+	Req1 = "http://www.postdanmark.dk/tracktrace/TrackTrace.do?i_stregkode="++binary_to_list(Tn),
+	io:format("TN: ~p ~n", [reg1]),
+	io:format("URL ~s ~n", [string:concat("http://www.postdanmark.dk/tracktrace/TrackTrace.do?i_stregkode=",Tn)]),
 	{ok, {{Version, 200, ReasonPhrase}, Headers, Body}} =
-      httpc:request(get, {"http://localhost/projects/smarttnt/tnt2.html", []}, [], []),
-      %io:format("~p", [Body]),
+      httpc:request(get, {Req1, []}, [], []),
+     % io:format("~p", [Body]),
       PdkTable = string:substr(Body,  string:rstr(Body, "pdkTable")),
       RegBody = string:substr(PdkTable,1,  string:str(PdkTable, "/table")),
       ListOfWords = string:tokens(RegBody, "<>"),
